@@ -1,0 +1,16 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "A description of your project",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "deploy": "gh-pages -d public"
+    },
+    "homepage": "https://saru-tiwari.github.io/Hotel_Menu/",
+    "dependencies": {
+      "express": "^4.17.1",
+      "gh-pages": "^3.2.3"
+    }
+  }
+  
