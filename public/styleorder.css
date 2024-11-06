@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #72891d;
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #ff7f50;
+    padding-bottom: 10px;
+
+    position: absolute; /* Allows precise positioning */
+    top: 10px; /* Moves it near the top */
+    left: 50%; /* Horizontally centers it */
+    transform: translateX(-50%); /* Adjusts the element back to the true center horizontally */
+    margin: 0; /* Removes default margin */
+}
+
+
+p {
+    font-size: 42px;
+    color: #941507;
+    font-weight: bold;
+    position: absolute;
+    top: 25%; /* Moves the element 25% from the top of the screen */
+    left: 50%; /* Centers it horizontally */
+    transform: translate(-50%, -25%); /* Adjusts the element back to true center */
+    text-align: center; /* Centers the text within the paragraph */
+    margin: 0; /* Remove default margins */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h2 {
+    color: #097b84;
+    font-size: 32px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-family: 'Georgia', serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #2c3e50;
+    border-left: 6px solid #e74c3c;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+/* Link Button */
+a {
+    display: inline-block;
+    margin-top: 28px;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: white;
+    background-color: #8b0517;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #c0392b;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    a {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+}
