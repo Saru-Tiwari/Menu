@@ -55,6 +55,6 @@ app.post('/order', (req, res) => {
 });
 
 // Start the server on port 3000
-app.listen(3002, () => {
-  console.log('Server is running on http://localhost:3002');
+app.listen(3005, () => {
+  console.log('Server is running on http://localhost:3005');
 });
